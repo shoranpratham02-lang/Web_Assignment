@@ -1,0 +1,261 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f5fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #3730a3, #818cf8);
+    color: white;
+}
+
+.hero h1 {
+    margin: 0 0 10px;
+    font-size: 2.3rem;
+}
+
+.hero p {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid #e0e7ff;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+    color: #4338ca;
+    margin-top: 0;
+}
+
+.card h3 {
+    margin-top: 22px;
+    color: #374151;
+}
+
+label {
+    display: block;
+    margin: 14px 0;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: 2px solid #a5b4fc;
+    border-color: #4f46e5;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+.result {
+    margin-top: 18px;
+    padding: 14px;
+    background-color: #eef2ff;
+    border-radius: 8px;
+    color: #312e81;
+    overflow-wrap: anywhere;
+}
+
+pre {
+    padding: 14px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 7px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-family: Consolas, monospace;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e7ff;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+
+#home {
+    text-align: center;
+    padding: 35px 20px;
+    background: linear-gradient(135deg, #3730a3, #818cf8);
+    color: white;
+}
+
+#home h1 {
+    margin: 0 0 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 15px;
+    background: #312e81;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 950px;
+    margin: 30px auto;
+}
+
+.content-section,
+.landing-section {
+    margin-bottom: 25px;
+    padding: 25px;
+    background: white;
+    border: 1px solid #e0e7ff;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+.content-section h2,
+.landing-section h2 {
+    margin-top: 0;
+    color: #4338ca;
+}
+
+.profile-card,
+.final-card {
+    padding: 20px;
+    background: #f8fafc;
+    border: 1px solid #e0e7ff;
+    border-radius: 10px;
+}
+
+.profile-card {
+    max-width: 450px;
+    text-align: center;
+}
+
+.avatar {
+    display: grid;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    place-items: center;
+    border-radius: 50%;
+    background: #4f46e5;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.role,
+.landing-subtitle,
+.project-note {
+    color: #475569;
+}
+
+.landing-section {
+    text-align: center;
+    background: #eef2ff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 11px 18px;
+    border-radius: 7px;
+    background: #4f46e5;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: #3730a3;
+}
+
+footer {
+    padding: 20px;
+    background: #e0e7ff;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 94%;
+    }
+
+    .content-section,
+    .landing-section {
+        padding: 18px;
+    }
+}
+
